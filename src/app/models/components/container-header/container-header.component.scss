@@ -1,0 +1,14 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding: 0 33px 0 41px;
+    .container-header__title {
+        margin-right: 35px;
+    }
+    .container-header__dropdown__icon {
+        width: 12px;
+        font-size: 12px;
+    }
+}

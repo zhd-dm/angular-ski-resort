@@ -8,13 +8,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './models/material/material/material.module';
 
 import { SkiPassComponent } from './models/components/ski-pass/ski-pass.component';
-import { ButtonComponent } from './models/UI/button/button.component';
+import { ContainerHeaderComponent } from './models/components/container-header/container-header.component';
+import { ContainerFooterComponent } from './models/components/container-footer/container-footer.component';
+import { ButtonCreateNewComponent } from './models/UI/button-create-new/button-create-new.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SkiPassComponent,
-    ButtonComponent
+    ContainerHeaderComponent,
+    ContainerFooterComponent,
+    ButtonCreateNewComponent
   ],
   imports: [
     BrowserModule,

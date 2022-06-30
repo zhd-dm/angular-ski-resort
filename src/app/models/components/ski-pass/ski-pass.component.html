@@ -1,14 +1,6 @@
 <div class="container container__ski-pass">
 
-    <div class="container-header">
-        <div>
-            <span class="container-header__title">{{headerTitle}}</span>
-            <app-button></app-button>
-        </div>
-        <a class="container-header__dropdown">
-            <mat-icon svgIcon="up-arrow" class="container-header__dropdown__icon"></mat-icon>
-        </a>
-    </div>
+    <app-container-header></app-container-header>
 
     <div class="container__main">
         <ul class="container__main__list">
@@ -27,11 +19,6 @@
         </ul>
     </div>
 
-    <div class="container__footer">
-        <button class="container-footer__show-all">
-          <span class="container-footer__show-all__text">{{showAllText}}</span>
-          <mat-icon svgIcon="right-arrow" class="container-footer__show-all__right-icon"></mat-icon>
-        </button>
-    </div>
+    <app-container-footer></app-container-footer>
 
 </div>

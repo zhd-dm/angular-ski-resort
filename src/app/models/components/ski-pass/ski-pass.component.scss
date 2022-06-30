@@ -1,7 +1,4 @@
 @import "../../../../variables.scss";
-// DEFAULT
-// font-weight: 500;
-// font-size: 14px;
 .container {
     box-sizing: border-box;
     background-color: $primary;
@@ -9,21 +6,6 @@
     height: 542px;
     border-radius: 12px;
     padding: 25px 0;
-}
-
-.container-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 25px;
-    padding: 0 33px 0 41px;
-    .container-header__title {
-        margin-right: 35px;
-    }
-    .container-header__dropdown__icon {
-        width: 12px;
-        font-size: 12px;
-    }
 }
 
 .container__main__list {
@@ -59,16 +41,14 @@
         padding: 20px;
         .item-body__ski-pass__text {
             color: $text-primary;
-            font-weight: 700;
         }
         .item-body__ski-pass__text_type {
-            // line-height: 16px;
             text-transform: uppercase;
         }
         .item-body__ski-pass__text_price {
             font-size: 24px;
-            // line-height: 90.69%;
-            // letter-spacing: -0.035em;
+            line-height: 90.69%;
+            letter-spacing: -0.035em;
         }
         >div {
             display: flex;
@@ -80,28 +60,5 @@
     .item-body__ski-pass__edit-menu__icon {
         width: 4px;
         font-size: 4px;
-    }
-}
-
-.container__footer {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 26px;
-    .container-footer__show-all {
-        display: flex;
-        align-items: center;
-        margin-top: 26px;
-        border: none;
-        background-color: $primary;
-        .container-footer__show-all__text {
-            font-size: 10px;
-            color: $text-basic;
-            margin-right: 9px;
-        }
-        .container-footer__show-all__right-icon {
-            width: 8px;
-            height: 8px;
-            font-size: 8px;
-        }
     }
 }
