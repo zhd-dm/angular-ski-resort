@@ -10,6 +10,10 @@ import { ISkiPass } from 'src/types';
 })
 export class SkiPassComponent {
 
+  headerTitle = 'Ски-пассы';
+
+  showAllText = 'Все';
+
   skiPasses: ISkiPass[] = skiPasses;
 
 
