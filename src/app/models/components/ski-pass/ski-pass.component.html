@@ -1,25 +1,37 @@
-<div class="container ski-pass">
-    <div class="ski-pass__header">
-        <span class="container__title">Ски-пассы</span>
-        <app-button></app-button>
-        <a>
-            <mat-icon svgIcon="dots" color="primary"></mat-icon>
+<div class="container container__ski-pass">
+
+    <div class="container-header">
+        <div>
+            <span class="container-header__title">Ски-пассы</span>
+            <app-button></app-button>
+        </div>
+        <a class="container-header__dropdown">
+            <mat-icon svgIcon="up-arrow" class="container-header__dropdown__icon"></mat-icon>
         </a>
     </div>
-    <div class="ski-pass__main">
-        <ul class="ski-pass__main__list">
-            <li class="ski-pass__main__list__item">
-                Первый
-            </li>
-            <li class="ski-pass__main__list__item">
-                Второй
-            </li>
-            <li class="ski-pass__main__list__item">
-                Третий
+
+    <div class="container__main">
+        <ul class="container__main__list">
+            <li *ngFor="let skiPass of skiPasses" class="container__main__list__item">
+                <img src={{skiPass.imagePath}} alt={{skiPass.id}}>
+                <div class="item-body">
+                    <div>
+                        <span class="item-body__ski-pass__text item-body__ski-pass__text_type">{{skiPass.type}} {{skiPass.time}}</span>
+                        <span class="item-body__ski-pass__text item-body__ski-pass__text_price">{{skiPass.price}} p</span>
+                    </div>
+                    <a class="item-body__ski-pass__edit-menu">
+                        <mat-icon svgIcon="dots" class="item-body__ski-pass__edit-menu__icon"></mat-icon>
+                    </a>
+                </div>
             </li>
         </ul>
     </div>
-    <div class="ski-pass__footer">
-        <button></button>
+
+    <div class="container__footer">
+        <button class="container-footer__show-all">
+          <span class="container-footer__show-all__text">Все</span>
+          <mat-icon svgIcon="right-arrow" class="container-footer__show-all__right-icon"></mat-icon>
+        </button>
     </div>
+
 </div>

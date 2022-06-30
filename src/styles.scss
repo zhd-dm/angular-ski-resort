@@ -21,6 +21,14 @@ $angular-ski-resort-theme: mat.define-light-theme(( color: ( primary: $angular-s
 // that you are using.
 @include mat.all-component-themes($angular-ski-resort-theme);
 @import "./variables.scss";
+@import "./reset.scss";
+* {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 html,
 body {
     height: 100%;
@@ -28,18 +36,4 @@ body {
 
 body {
     background-color: #E5E5E5;
-    margin: 0;
-    font-family: Roboto;
-}
-
-.container {
-    background-color: $primary;
-    width: 687px;
-    height: 542px;
-    border-radius: 12px;
-    padding: 32px 41px;
-}
-
-.ski-pass__main__list {
-    list-style: none;
 }

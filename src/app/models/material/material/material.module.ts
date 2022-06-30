@@ -24,7 +24,7 @@ export class MaterialModule {
     this.registerCustomIcons(ICONS);
   }
 
-  registerCustomIcons(icons: ISvg[]):void {
+  registerCustomIcons(icons: ISvg[]): void {
     icons.forEach((icon: ISvg) => {
       this.matIconRegistry.addSvgIcon(
         icon.name,
