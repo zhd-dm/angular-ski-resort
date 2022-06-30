@@ -8,11 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './models/material/material/material.module';
 
 import { SkiPassComponent } from './models/components/ski-pass/ski-pass.component';
+import { ButtonComponent } from './models/UI/button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SkiPassComponent
+    SkiPassComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
