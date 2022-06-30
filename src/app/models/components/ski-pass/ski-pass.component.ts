@@ -10,8 +10,7 @@ import { ISkiPass } from 'src/types';
 })
 export class SkiPassComponent {
 
-  skiPasses: ISkiPass[] = skiPasses;
-
+  skiPasses: ISkiPass[] = skiPasses.slice(0, 3);
 
   constructor() { }
 
