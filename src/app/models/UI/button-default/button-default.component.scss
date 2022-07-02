@@ -1,0 +1,10 @@
+@import "../../../../variables.scss";
+
+.default-button {
+  width: 169px;
+  height: 46px;
+  background: $color-basic;
+  border: none;
+  border-radius: 21px;
+  color: $color-primary;
+}
