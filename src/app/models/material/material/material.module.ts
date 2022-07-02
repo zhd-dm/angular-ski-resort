@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 import { DomSanitizer } from '@angular/platform-browser';
 
 import { ICONS } from 'src/data';
 import { ISvg } from 'src/types';
 
 const MaterialComponents = [
-  MatIconModule
+  MatIconModule,
+  MatButtonModule
 ]
 
 @NgModule({

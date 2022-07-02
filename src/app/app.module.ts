@@ -11,6 +11,7 @@ import { SkiPassComponent } from './models/components/ski-pass/ski-pass.componen
 import { ContainerHeaderComponent } from './models/components/container-header/container-header.component';
 import { ContainerFooterComponent } from './models/components/container-footer/container-footer.component';
 import { ButtonCreateNewComponent } from './models/UI/button-create-new/button-create-new.component';
+import { ButtonDefaultComponent } from './models/UI/button-default/button-default.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ButtonCreateNewComponent } from './models/UI/button-create-new/button-c
     SkiPassComponent,
     ContainerHeaderComponent,
     ContainerFooterComponent,
-    ButtonCreateNewComponent
+    ButtonCreateNewComponent,
+    ButtonDefaultComponent
   ],
   imports: [
     BrowserModule,
