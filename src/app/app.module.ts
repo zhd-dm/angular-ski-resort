@@ -12,6 +12,7 @@ import { ContainerHeaderComponent } from './models/components/container-header/c
 import { ContainerFooterComponent } from './models/components/container-footer/container-footer.component';
 import { ButtonCreateNewComponent } from './models/UI/button-create-new/button-create-new.component';
 import { ButtonDefaultComponent } from './models/UI/button-default/button-default.component';
+import { DatepickerComponent } from './models/UI/datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ButtonDefaultComponent } from './models/UI/button-default/button-defaul
     ContainerHeaderComponent,
     ContainerFooterComponent,
     ButtonCreateNewComponent,
-    ButtonDefaultComponent
+    ButtonDefaultComponent,
+    DatepickerComponent
   ],
   imports: [
     BrowserModule,

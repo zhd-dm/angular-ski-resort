@@ -1,7 +1,7 @@
 @import "../../../../variables.scss";
 .container {
     box-sizing: border-box;
-    background-color: $primary;
+    background-color: $color-primary;
     width: 687px;
     height: 542px;
     border-radius: 12px;
@@ -40,7 +40,7 @@
         justify-content: space-between;
         padding: 20px;
         .item-body__ski-pass__text {
-            color: $text-primary;
+            color: $color-text-primary;
         }
         .item-body__ski-pass__text_type {
             text-transform: uppercase;
